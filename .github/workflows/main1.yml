@@ -22,6 +22,6 @@ jobs:
       ANSIBLE_HOST_KEY_CHECKING: False
     steps:
     - uses: actions/checkout@v1
-    - uses: ./.github/actions/ansible
+    - uses: ./.github/workflow/install_venv.yml
       env:
         VAULT_PASS: ${{ secrets.ola_default }} 
