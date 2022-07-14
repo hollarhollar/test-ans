@@ -29,10 +29,7 @@
       name:
         - python3.6
         - python3.6-dev
-          # - python36-libs
         - python3-setuptools
-          # - gcc
-          # - gcc-c++
       state: present
 
   - name: Create Python3-virtual environment folder
